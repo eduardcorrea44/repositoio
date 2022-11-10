@@ -1,0 +1,199 @@
+
+<!-- <?php 
+
+session_start();
+
+if(!isset($_SESSION['usuario'])){
+    echo '
+    <script>
+        alert("Por favor debes iniciar sesion");
+        window.location = "../php/index.php"
+    </script>
+    ';
+
+    session_destroy();
+    die();
+}
+ -->
+
+
+<!-- ?> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy and body</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/pagina.css">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <script src="https://kit.fontawesome.com/de2c309a09.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <div class="contenedorprincipal"> <!-- Aqui comienza el contenedorprincipal -->
+        <div class="header">
+            <h1>Healthy mind and body <br>
+                <div>Bienvenido</div> 
+            </h1>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <a href=""></a>
+
+                        <li><a href="../php/cerrar_sesion.php"><i class="fa-solid fa-circle-xmark"></i>
+                            Cerrar Sesión</a></li>
+                        <!-- <li><a href="#"><i class="fa-solid fa-comment"></i>
+                            Sesion de comentarios</a></li> -->
+                        <li><a href="#"><i class="fa-solid fa-screwdriver-wrench"></i>
+                            Servicios</a></li>
+                        <li><a href="https://wa.me/573127567135?text=¿Puedo%20obtener%20asistencia%20psicologica?"><i class="fa-solid fa-phone-flip"></i>
+                            Contactanos</a></li>
+     
+     
+                    </ul>
+                </nav>
+            </div>
+           
+            
+            <!-- Debe tener menu funcional -->
+
+        </div>
+        <div class="banner"> <!-- Aqui comienza el banner -->
+           
+            <input type="radio" name="imageslide" id="1" hidden>
+            <input type="radio" name="imageslide" id="2" hidden>
+            <input type="radio" name="imageslide" id="3" hidden>
+            <input type="radio" name="imageslide" id="4" hidden>
+
+            <div class="slide"> <!-- Aqui comienza el slide -->
+                <div class="itemslide">
+                    <img src="../imagenes/healthy mind and body.jpg" alt="">
+                </div>
+                <div class="itemslide">
+                    <img src="../imagenes/WhatsApp Image 2022-09-15 at 3.01.09 PM.jpeg" alt="">
+                </div>
+                <div class="itemslide">
+                    <img src="../imagenes/34a4c33a-2e6b-43d6-bee8-a494c2d379ac.jpg" alt="">
+                  
+                </div>
+                <!-- <div class="itemslide">
+                    <img src="../lgtbiimagenes/slider.jpeg" alt="" style="   background: rgba(0, 0, 0, 0.6);">
+                    <p class="lectura">
+                       <span style="color: rgb(22, 21, 21); top: 50%;
+                       left: 50%;
+                       transform: translateX(100%) translateY(-50%);;"><strong>Enterate de la importancia de esta comunidad en la institucion y en como sus voces pueden ser escuchadas como a todo el mundo</strong> </span>
+                    </p>
+                    <a href="lgtbi.html">
+                       
+                    <button id="abrir">
+                        Más información
+                    </button>
+                    </a>
+
+                    
+                </div> -->
+            </div> <!-- Aqui termina el slide -->
+
+            <div class="pagination"> <!-- Aqui comienza el pagination -->
+                <label class="paginationitem" for="1">
+                    <img src="../imagenes/healthy mind and body.jpg" alt="">
+                </label>
+                <label class="paginationitem" for="2">
+                    <img src="../imagenes/WhatsApp Image 2022-09-15 at 3.01.09 PM.jpeg" alt="">
+                </label>
+                <label class="paginationitem" for="3">
+                    <img src="../imagenes/34a4c33a-2e6b-43d6-bee8-a494c2d379ac.jpg" alt="">
+                </label>
+                <!-- <label class="paginationitem" for="4">
+                    <img src="../lgtbiimagenes/slider.jpeg" alt="">
+
+                </label> -->
+                
+            </div> <!-- Aqui comienza el pagination -->
+             
+
+
+        </div> <!-- Aqui termina el banner -->
+        <div class="cajadeinformacion"> <!-- Aqui comienza la caja de información -->
+            <h1>¿Has vivido alguno de estos casos?</h1>
+            <div class="caja1">              
+                <img src="../cajadeinformacion/depresion.jpg">
+                <h4>Depresión</h4> <br>
+                <p>¿Te has sentido triste, cansado, exhausto, sin animos de no hacer nada, puedes sufrir de depresion?</p> <br>
+                <a href="depresion.html">Más información</a>
+            </div>
+            <div class="caja1">
+                <img src="../cajadeinformacion/ansiedad.jpeg">
+                <h4>Ansiedad</h4> <br>
+                <p>¿Te has sentido ansioso, prepucupado, sin nada mas que pensar por culpa del estres, puedes sufrir de ansiedad?</p> <br>
+                <a href="ansiedad.html">Más información</a>
+            </div>
+            <div class="caja1">
+                <img src="../acoso/acosoescolar.jpg">
+                <h4>Acoso escolar</h4> <br>
+                <p>Has sido victima de bullyng?</p> <br>
+                <a href="abuso.html">Más información</a>
+            </div>
+            <div class="caja1">
+                <img src="../imagenes_cutting/banner.jpg">
+                <h4>cutting</h4> <br>
+                <p>Te has lastimado a ti mismo, por culpa del estres?</p> <br>
+                <a href="cutting.html">Más información</a>
+            </div>
+        </div> <!-- Aqui termina la caja de información -->
+
+        <!-- <div class="cajadecomentarios"> Aqui comienza la caja de comentarios
+
+
+        </div> Aqui termina la caja de comentarios -->
+
+    </div> <!-- Aqui terminna el contenedorprincipal -->
+
+    <footer>
+        <div class="containerfooter"> <!-- containerfooter -->   
+            <div class="cajafooter"> <!-- cajafooter -->
+                <h2>sobre nosotros:</h2>
+                <div class="terminos"> <!-- terminos -->
+                    <p>Somos unos jovenes estudiantes cuya razon es buscar una solucion para los estudiantee que sufren algun tipo de transtorno</p>
+                </div> <!-- terminos -->
+               
+
+            </div> <!-- cajafooter -->
+            <div class="cajafooter"> <!-- cajafooter22 -->
+                <h2>Nuestra misión:</h2>
+                <div class="terminos"> <!-- terminos -->
+                    <p>Buscamos que los estudiantes entiendan la imporancia de la salud mental, y que muhocs estudiantes de la institucion pueda utilizar nuestra pagina sabiamente para poder controlar sus emociones</p>
+                </div> <!-- terminos -->
+                
+            </div><!-- cajaflaooter22 -->
+            <div class="cajafooter"> <!-- cajaflaooter3 -->
+                <h2>Contactanos en:</h2>
+                <a href="mailto:psicologiaMLED@gmail.com">psicologiaMLED@gmail.com</a>
+                <div class="p">
+                    <p>
+                       <a href="https://wa.me/573127567135?text=¿Puedo%20obtener%20asistencia%20psicologica?">3127567135</a>  <br>
+                       <a href="https://wa.me/573024316907?text=¿Puedo%20obtener%20asistencia%20psicologica?">3024316907</a> 
+                    </p>
+                </div>
+                
+                
+            </div> <!-- cajaflaooter3 -->
+            <div class="cajafooter"> <!-- cajaflaooter4 -->
+                <h2>Nuestras redes sociales:</h2>
+                <a href=""><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i> Twitter</a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+                
+            </div> <!-- cajaflaooter4 -->
+
+        </div> <!-- containerfooter -->
+        <div class="cajacopy">
+            <hr>
+            <p>Todos los derechos reservados © 2022 <b>Healthy and body</b></p>
+        </div>
+    </footer>
+</body>
+</html>
